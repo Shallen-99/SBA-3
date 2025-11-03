@@ -1,0 +1,11 @@
+body {
+    font-size: 15;
+}
+
+nav {
+    background-color: purple;
+}
+
+.text img {
+    max-height: 50px;
+}

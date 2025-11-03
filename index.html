@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,34 +17,71 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="container row position-relative">
 
-  Samuel Green
-  Available to Walk
+    <div class="container border border-5 rounded-4 w-50 p-3 d-grid gap-3 col " style="grid-template-columns: 1fr;">
 
-  That sounds great. I’d be happy with that.
+      <nav class="navbar container border rounded-2 m-15 p-15">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="/images/avatar.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top rounded-circle col">
+          <div class="col">
+            <h6>Samuel Green</h6>
+            <h6>Available to Walk</h6>
+          </div>
+          </a>
+        </div>
+      </nav>
 
-  Could you send over some pictures of your dog, please?
+      <div class="container border" style="background-color: lightgray;">
+        <p>That sounds great. I’d be happy with that.</p>
+      </div>
 
-  Here are a few pictures. She’s a happy girl!
+      <div class="container border" style="background-color: lightgray;">
+        <p>Could you send over some pictures of your dog, please?</p>
+      </div>
 
-  Can you make it?
+      <div class="text">
+        <img src="/images/dog-image-1.jpg" class="col rounded-5" alt="dog looking up smiling" >
+        <img src="/images/dog-image-2.jpg" class="col rounded-5" alt="dog laying down in sand">
+        <img src="/images/dog-image-3.jpg" class="col rounded-5" alt="dog in forest with stick in mouth">
+      </div>
+      <div class="container border">
+        Here are a few pictures. She’s a happy girl!
+      </div>
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
+      <div class="container border">
+        Can you make it?
+      </div>
 
-  30 minute walk
-  $29
+      <div class="container border" style="background-color: lightgray;">
+        She looks so happy! The time we discussed works. How long shall I take her out for?
+      </div>
 
-  1 hour walk
-  $49
+      <div class="container border">
+        30 minute walk
+        $29
+      </div>
 
-  Type a message…
+      <div class="container border" style="background-color: purple;">
+        1 hour walk
+        $49
+      </div>
 
-  Simple booking
+      <div class="container border " style="background-color: purple;">
+        Type a message…
+      </div>
+    </div>
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
+    <div class="col ">
+      <h1> Simple booking </h1>
+
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
