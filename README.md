@@ -1,3 +1,27 @@
+This assignment is our SBA-3 and we were assigned to pick a challenge from frontend mentor, and the challenge I picked was the Chat App Css Illustration.
+In this assignment I had to use bootstrap for the first time and the biggest challenge I had was figuring out what from bootstrap I had to utilize there is a lot
+of documentation in bootstrap and I spent most of my time reading over the documentation to make sure what I was using was the most efficient way to get the application to look the way I wanted it to look.
+
+
+In this assignment it was my first time using bootstrap and with it came a sort of learning curve that I had to try to overcome while doing this assignment, as I 
+did this assignment I did realise a few things. The first thing is that you can not just use pure bootstrap you do have to add in some css which I had a 
+misconception about when starting this assignment and trying to add css while also dealing with all of the bootstrap I already had without messing up the design I 
+had was already a challenge, and the second thing is that bootstrap can be extremely helpful only if you know what you are doing and with that comes a lot of 
+documentation and reading. If I had more time I would most likely restart the assignment and only add bootstrap where it was needed and not try to design the 
+whole site with purely bootstrap especially since I have only scratched the surface of everything bootstrap has to offer.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Frontend Mentor - Chat app CSS illustration
 
 ![Design preview for the Chat app CSS illustration coding challenge](preview.jpg)
